@@ -113,6 +113,8 @@ Master's Degree in Computer Science – IWOCS
 Université Le Havre Normandie  
 Academic Year 2025–2026
 
+---
+
 # Simulation des mécanismes de consensus de la blockchain
 
 ## Présentation du projet
@@ -220,6 +222,6 @@ Consulter le [rapport complet du projet](docs/rapport.md).
 - **Boussad HAMMOUM**
 - **Hocine HAMAMA**
 
-Master 1 Informatique – IWOCS
-Université Le Havre Normandie
+Master 1 Informatique – IWOCS  
+Université Le Havre Normandie  
 Année universitaire 2025–2026
