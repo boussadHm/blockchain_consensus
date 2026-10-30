@@ -1,0 +1,39 @@
+# === RUN PBFT ===
+# p_numNoeuds : 10
+# p_probaPanne : 0.05
+# p_mandatLeader : 60.0
+# Temps_simulation : 500.0
+#
+# timestamp consensus nodeID nodeCount nbBlocks isConnected votesPrepare votesCommit isLeader isMalveillant activity
+# activity = votesPrepare + votesCommit
+500.0 PBFT 0 10 7 1 0 0 0 1 0
+500.0 PBFT 1 10 7 1 0 0 0 0 0
+500.0 PBFT 2 10 7 1 0 0 0 0 0
+500.0 PBFT 3 10 7 1 0 0 1 0 0
+500.0 PBFT 4 10 7 1 0 0 0 0 0
+500.0 PBFT 5 10 7 1 0 0 0 0 0
+500.0 PBFT 6 10 7 1 0 0 0 0 0
+500.0 PBFT 7 10 7 1 0 0 0 0 0
+500.0 PBFT 8 10 7 1 0 0 0 1 0
+500.0 PBFT 9 10 7 1 0 0 0 0 0
+
+# STATS_GLOBALES
+# consensus : PBFT
+# timestamp : 500.0
+# nodeCount : 10
+# nbConnectes : 10
+# failures : 0
+# hauteur_chaine_max : 7
+# hauteur_chaine_min : 7
+# syncGap : 0
+# throughput : 0.0140
+# rounds_total : 19
+# blocs_valides : 0
+# blocs_rejetes : 0
+# taux_rejet : 0.0000
+# reponses_client : 0
+# nbLeaders : 1
+# nbMalveillants : 2
+# totalVotesPrepare : 0
+# totalVotesCommit : 0
+# totalActivity : 0

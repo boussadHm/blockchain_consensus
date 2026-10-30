@@ -1,0 +1,27 @@
+# === RUN PoW ===
+# Difficulte : 2
+# Nb_noeuds : 10
+# Recompense_bloc : 3.125
+# Fork_active : false
+# Temps_simulation : 500.0
+#
+# NodeID  Balance  NbBlocs  EstConnecte  EnTrainDeMiner
+0 171.875 221 1 1
+1 37.500 221 1 1
+2 21.875 221 1 1
+3 0.000 221 1 1
+4 115.625 221 1 1
+5 62.500 221 1 1
+6 59.375 221 1 1
+7 109.375 221 1 1
+8 0.000 139 0 1
+9 171.875 221 1 1
+#
+# === STATS GLOBALES ===
+# Nb_connectes : 9
+# Total_BTC_distribues : 750.000
+# Hauteur_chaine_max : 221
+# Hauteur_chaine_min : 139
+# Ecart_chaines : 82
+# Blocs_par_seconde : 0.7367
+# Meilleur_mineur : 0

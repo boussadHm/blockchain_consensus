@@ -1,0 +1,4 @@
+# consensus meanThroughput meanFailures meanSyncGap
+POW 0.053333 1.000 7.000
+POS 0.083300 0.000 1.000
+PBFT 0.026667 1.000 0.000

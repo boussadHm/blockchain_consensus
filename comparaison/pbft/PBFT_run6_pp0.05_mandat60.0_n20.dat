@@ -1,0 +1,49 @@
+# === RUN PBFT ===
+# p_numNoeuds : 20
+# p_probaPanne : 0.05
+# p_mandatLeader : 60.0
+# Temps_simulation : 500.0
+#
+# timestamp consensus nodeID nodeCount nbBlocks isConnected votesPrepare votesCommit isLeader isMalveillant activity
+# activity = votesPrepare + votesCommit
+500.0 PBFT 0 20 17 1 0 0 0 0 0
+500.0 PBFT 1 20 17 1 0 0 0 0 0
+500.0 PBFT 2 20 17 1 0 0 0 0 0
+500.0 PBFT 3 20 15 0 0 0 0 0 0
+500.0 PBFT 4 20 17 1 0 0 0 0 0
+500.0 PBFT 5 20 17 1 0 0 0 0 0
+500.0 PBFT 6 20 17 1 0 0 0 0 0
+500.0 PBFT 7 20 17 1 0 0 0 0 0
+500.0 PBFT 8 20 17 1 0 0 0 0 0
+500.0 PBFT 9 20 17 1 0 0 1 0 0
+500.0 PBFT 10 20 17 1 0 0 0 0 0
+500.0 PBFT 11 20 17 1 0 0 0 0 0
+500.0 PBFT 12 20 17 1 0 0 0 0 0
+500.0 PBFT 13 20 17 1 0 0 0 0 0
+500.0 PBFT 14 20 17 1 0 0 0 0 0
+500.0 PBFT 15 20 17 1 0 0 0 0 0
+500.0 PBFT 16 20 17 1 0 0 0 0 0
+500.0 PBFT 17 20 17 1 0 0 0 0 0
+500.0 PBFT 18 20 16 0 0 0 0 0 0
+500.0 PBFT 19 20 17 1 0 0 0 0 0
+
+# STATS_GLOBALES
+# consensus : PBFT
+# timestamp : 500.0
+# nodeCount : 20
+# nbConnectes : 18
+# failures : 2
+# hauteur_chaine_max : 17
+# hauteur_chaine_min : 15
+# syncGap : 2
+# throughput : 0.0340
+# rounds_total : 19
+# blocs_valides : 18
+# blocs_rejetes : 0
+# taux_rejet : 0.0000
+# reponses_client : 18
+# nbLeaders : 1
+# nbMalveillants : 0
+# totalVotesPrepare : 0
+# totalVotesCommit : 0
+# totalActivity : 0

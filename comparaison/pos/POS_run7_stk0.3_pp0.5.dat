@@ -1,0 +1,26 @@
+# === RUN PoS ===
+# Taux_staking : 0.3
+# Proba_panne : 0.5
+# Temps_simulation : 500.0
+#
+# NodeID  Balance  Stake  RecompensesTotales  NbBlocs  EstConnecte
+0 6.810 32.0 0.600 30 0
+1 83.272 0.0 0.000 26 0
+2 0.691 32.0 0.500 29 0
+3 14.104 0.0 0.000 29 1
+4 14.213 32.0 0.150 29 1
+5 5.278 0.0 0.000 29 0
+6 101.098 32.0 0.450 29 0
+7 127.404 32.0 0.350 27 1
+8 2.436 0.0 0.000 27 1
+9 2.182 0.0 0.000 16 1
+
+# === STATS GLOBALES ===
+# Nb_validateurs : 5
+# Nb_connectes : 5
+# Total_stake_ETH : 160.0
+# Ecart_recompenses : 0.600
+# Hauteur_chaine_max : 30
+# Hauteur_chaine_min : 16
+# Ecart_chaines : 14
+# Blocs_par_seconde : 0.0600

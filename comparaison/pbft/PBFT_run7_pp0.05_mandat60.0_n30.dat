@@ -1,0 +1,59 @@
+# === RUN PBFT ===
+# p_numNoeuds : 30
+# p_probaPanne : 0.05
+# p_mandatLeader : 60.0
+# Temps_simulation : 500.0
+#
+# timestamp consensus nodeID nodeCount nbBlocks isConnected votesPrepare votesCommit isLeader isMalveillant activity
+# activity = votesPrepare + votesCommit
+500.0 PBFT 0 30 16 0 0 0 0 0 0
+500.0 PBFT 1 30 18 1 0 0 0 1 0
+500.0 PBFT 2 30 18 1 0 0 0 0 0
+500.0 PBFT 3 30 18 1 0 0 0 0 0
+500.0 PBFT 4 30 18 1 0 0 0 0 0
+500.0 PBFT 5 30 17 0 0 0 0 0 0
+500.0 PBFT 6 30 18 1 0 0 0 0 0
+500.0 PBFT 7 30 18 1 0 0 0 0 0
+500.0 PBFT 8 30 18 1 0 0 0 0 0
+500.0 PBFT 9 30 18 1 0 0 1 0 0
+500.0 PBFT 10 30 18 1 0 0 0 0 0
+500.0 PBFT 11 30 17 0 0 0 0 0 0
+500.0 PBFT 12 30 18 1 0 0 0 0 0
+500.0 PBFT 13 30 18 1 0 0 0 0 0
+500.0 PBFT 14 30 18 1 0 0 0 0 0
+500.0 PBFT 15 30 17 0 0 0 0 0 0
+500.0 PBFT 16 30 18 1 0 0 0 0 0
+500.0 PBFT 17 30 18 1 0 0 0 0 0
+500.0 PBFT 18 30 18 1 0 0 0 0 0
+500.0 PBFT 19 30 18 1 0 0 0 0 0
+500.0 PBFT 20 30 18 1 0 0 0 0 0
+500.0 PBFT 21 30 16 0 0 0 0 0 0
+500.0 PBFT 22 30 17 0 0 0 0 0 0
+500.0 PBFT 23 30 18 1 0 0 0 0 0
+500.0 PBFT 24 30 18 1 0 0 0 0 0
+500.0 PBFT 25 30 18 1 0 0 0 0 0
+500.0 PBFT 26 30 17 0 0 0 0 0 0
+500.0 PBFT 27 30 18 1 0 0 0 0 0
+500.0 PBFT 28 30 18 1 0 0 0 0 0
+500.0 PBFT 29 30 18 1 0 0 0 1 0
+
+# STATS_GLOBALES
+# consensus : PBFT
+# timestamp : 500.0
+# nodeCount : 30
+# nbConnectes : 23
+# failures : 7
+# hauteur_chaine_max : 18
+# hauteur_chaine_min : 16
+# syncGap : 2
+# throughput : 0.0360
+# rounds_total : 19
+# blocs_valides : 23
+# blocs_rejetes : 0
+# taux_rejet : 0.0000
+# reponses_client : 23
+# nbLeaders : 1
+# nbMalveillants : 2
+# totalVotesPrepare : 0
+# totalVotesCommit : 0
+# totalActivity : 0
