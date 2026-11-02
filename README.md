@@ -23,7 +23,7 @@ The AnyLogic project contains three simulation models:
 | `PoS` | Proof of Stake |
 | `PBFT` | Practical Byzantine Fault Tolerance |
 
-All three models are included in the same AnyLogic project file: `main/PBFT.alp`.
+All three models are included in the same AnyLogic project repertory: `main/`.
 
 ## Features
 
@@ -53,8 +53,9 @@ The experiments study different parameters, including mining difficulty, staking
 .
 ├── README.md
 ├── main/
-│   ├── PBFT.alp
-│   └── 3d/
+│   ├── PBFT/
+│   ├── POS/
+│   └── POW/
 ├── comparaison/
 │   ├── pow/
 │   ├── pos/
@@ -139,7 +140,7 @@ Le projet AnyLogic regroupe trois modèles de simulation :
 | `PoS` | Proof of Stake |
 | `PBFT` | Practical Byzantine Fault Tolerance |
 
-Ces trois modèles sont inclus dans le même fichier de projet AnyLogic : `main/PBFT.alp`.
+Ces trois modèles sont inclus dans le même répertoire de projet AnyLogic : `main/`.
 
 ## Fonctionnalités
 
@@ -169,8 +170,9 @@ Les expériences étudient différents paramètres, notamment la difficulté de 
 .
 ├── README.md
 ├── main/
-│   ├── PBFT.alp
-│   └── 3d/
+│   ├── PBFT/
+│   ├── POS/
+│   └── POW/
 ├── comparaison/
 │   ├── pow/
 │   ├── pos/
