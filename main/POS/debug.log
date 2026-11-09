@@ -1,0 +1,7 @@
+[0430/082547.285:INFO:CONSOLE(7)] "THREE.ColladaLoader: File version 1.4.0", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (7)
+[0430/082547.298:INFO:CONSOLE(13)] "Loaded: file:D:/M1/TPE/tpe/POS 23/04/2026/3d/laptop_open_off.dae", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (13)
+[0430/082547.306:INFO:CONSOLE(13)] "Loaded: file:D:/M1/TPE/tpe/POS 23/04/2026/3d/laptop_open_off.dae", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (13)
+[0430/082547.390:INFO:CONSOLE(13)] "ISRGB -256 false", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (13)
+[0430/082547.390:INFO:CONSOLE(13)] "ISRGB -4144960 false", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (13)
+[0430/082547.390:INFO:CONSOLE(13)] "ISRGB -4144960 false", source: file:///C:/Program%20Files/AnyLogic%208.9%20Personal%20Learning%20Edition/plugins/com.anylogic.graphics3d_8.9.7.202512121156/static/init.js (13)
+[0430/082734.658:ERROR:gpu_init.cc(523)] Passthrough is not supported, GL is disabled, ANGLE is 
