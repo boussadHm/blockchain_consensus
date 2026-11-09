@@ -364,8 +364,7 @@ for (noeud n : noeuds) {
             }
             
             // 2. On DÉTRUIT toutes les connexions (les lignes visuelles disparaissent)
-			n.disconnectFromAll();            
-            
+            n.disconnectFromAll();
             // 3. Le nœud devient complètement GRIS
             n.voyant_rect.setFillColor(gray); 
             
